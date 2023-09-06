@@ -4,7 +4,7 @@
 -- Performs DDL for a given set of column definitions and a given DDL command. 
 -- NB. Data Definition Language (DDL) defines the schema and the objects in it.
 -- -------------------------------------------------- ---  
--- script_name: meta.table_generator.Procedure.sql 
+-- script_name: meta.generate_tbl.Procedure.sql 
 -- script_author: Adam Heinz 
 -- script_date: 6 Feb 2023 
 -- script_license: MIT 
@@ -126,7 +126,7 @@
 ------------SET @sql = 'DROP TABLE IF EXISTS ' + QUOTENAME(@schema_name) + CHAR(46) + QUOTENAME(@table_name) + CHAR(59) ; 
 ------------EXEC (@sql) ; 
 
-------------EXEC meta.table_generator 
+------------EXEC meta.generate_tbl 
 ------------ @p_columns_tbl = @col_defn 
 ------------,@p_action = 'create' 
 ------------; 
@@ -142,7 +142,7 @@
 -- -------------------------------------------------- --- 
 */ 
 
-CREATE OR ALTER PROCEDURE meta.table_generator ( 
+CREATE OR ALTER PROCEDURE meta.generate_tbl ( 
  @p_columns_tbl [meta].[column_schemata] READONLY 
 ,@p_action varchar(128) = 'create' /* options: ('create', 'alter', 'drop') */   
 ) 
