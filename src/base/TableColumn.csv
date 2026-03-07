@@ -1,0 +1,4 @@
+TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, ORDINAL_POSITION, COLUMN_DEFAULT, IS_NULLABLE, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
+meta, design_schema, design_schema_id, 1, identity, NO, int, NULL
+meta, design_schema, design_schema_name, 2, ., NO, varchar, 128
+meta, design_schema, design_schema_name, 3, ., NO, varchar, 256

@@ -1,0 +1,16 @@
+TABLE_SCHEMA, TABLE_NAME
+meta, design_schema
+meta, discover_schema
+meta, discover_table
+meta, discover_table_constraint
+meta, discover_column
+meta, discover_check_constraint
+meta, discover_constraint_table_usage
+meta, discover_referential_constraint
+meta, discover_constraint_column_usage
+meta, discover_routine
+meta, discover_routine_column
+meta, discover_parameter
+meta, discover_view
+meta, discover_view_table_usage
+meta, discover_view_column_usage
