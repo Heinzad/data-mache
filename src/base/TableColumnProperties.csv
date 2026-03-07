@@ -1,12 +1,12 @@
-NAME, VALUE, LEVEL0TYPE, LEVEL0NAME, LEVEL1TYPE, LEVEL1NAME, LEVEL2TYPE, LEVEL2NAME
-COMMENT, autonumber , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_view_table_usage_id
-COMMENT, Identify the schema to contain the view. , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_view_schema
-COMMENT, Identify the query being designed. , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_view_name
-COMMENT, Identify the schema containing the base table. , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_table_schema
-COMMENT, Identify the base table being queried. , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_table_name
-COMMENT, Describe the nature of the query. , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_view_table_description
-COMMENT, Define the join operation (inner, left, right). , SCHEMA, meta, TABLE, design_view_table_usage, COLUMN, design_view_table_definition
-COMMENT, Row Sequence Number. Primary Key (Surrogate Key). , SCHEMA, meta, TABLE, design_view_table_usage, CONSTRAINT, design_view_table_usage_pk
-COMMENT, Ensures each use of a table is only recorded once. Natural Key (Business Key). , SCHEMA, meta, TABLE, design_view_table_usage, CONSTRAINT, design_view_table_usage_uk
-COMMENT, Verify the schema exists in which the view is to be created , SCHEMA, meta, TABLE, design_view_table_usage, CONSTRAINT, design_view_table_usage_fk_schema
-COMMENT, Verify the base table exists to be queried by the view , SCHEMA, meta, TABLE, design_view_table_usage, CONSTRAINT, design_view_table_usage_fk_table
+"NAME"," VALUE"," LEVEL0TYPE"," LEVEL0NAME"," LEVEL1TYPE"," LEVEL1NAME"," LEVEL2TYPE"," LEVEL2NAME"
+"COMMENT"," autonumber."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_view_table_usage_id"
+"COMMENT"," Identify the schema to contain the view."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_view_schema"
+"COMMENT"," Identify the query being designed."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_view_name"
+"COMMENT"," Identify the schema containing the base table."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_table_schema"
+"COMMENT"," Identify the base table being queried."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_table_name"
+"COMMENT"," Describe the nature of the query."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_view_table_description"
+"COMMENT"," Define the join operation (inner or left or right etc)"," SCHEMA"," meta"," TABLE"," design_view_table_usage"," COLUMN"," design_view_table_definition"
+"COMMENT"," Row Sequence Number. Primary Key (Surrogate Key)."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," CONSTRAINT"," design_view_table_usage_pk"
+"COMMENT"," Ensures each use of a table is only recorded once. Natural Key (Business Key)."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," CONSTRAINT"," design_view_table_usage_uk"
+"COMMENT"," Verify the schema exists in which the view is to be created."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," CONSTRAINT"," design_view_table_usage_fk_schema"
+"COMMENT"," Verify the base table exists to be queried by the view."," SCHEMA"," meta"," TABLE"," design_view_table_usage"," CONSTRAINT"," design_view_table_usage_fk_table"
