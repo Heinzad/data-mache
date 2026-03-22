@@ -1,4 +1,3 @@
-Base Tables
-============ 
+TABLES
 
-This folder contains scripts for building base tables.
+This directory contains sql scripts for creating tables.
