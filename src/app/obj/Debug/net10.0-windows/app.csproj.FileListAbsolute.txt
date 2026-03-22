@@ -1,0 +1,15 @@
+C:\Users\mahih\Documents\repos\data-mache\src\app\bin\Debug\net10.0-windows\app.exe
+C:\Users\mahih\Documents\repos\data-mache\src\app\bin\Debug\net10.0-windows\app.deps.json
+C:\Users\mahih\Documents\repos\data-mache\src\app\bin\Debug\net10.0-windows\app.runtimeconfig.json
+C:\Users\mahih\Documents\repos\data-mache\src\app\bin\Debug\net10.0-windows\app.dll
+C:\Users\mahih\Documents\repos\data-mache\src\app\bin\Debug\net10.0-windows\app.pdb
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.AssemblyInfoInputs.cache
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.AssemblyInfo.cs
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.csproj.CoreCompileInputs.cache
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.sourcelink.json
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.dll
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\refint\app.dll
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.pdb
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\app.genruntimeconfig.cache
+C:\Users\mahih\Documents\repos\data-mache\src\app\obj\Debug\net10.0-windows\ref\app.dll
